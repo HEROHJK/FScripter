@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Data.hpp" />
+    <ClInclude Include="StringControl.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestModule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
